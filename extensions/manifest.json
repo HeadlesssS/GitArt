@@ -1,0 +1,23 @@
+  {
+    "manifest_version": 3,
+    "name": "Verdant",
+    "version": "1.0.0",
+    "description": "Draw art on your GitHub contribution graph",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Verdant",
+      "default_icon": {
+        "16": "media/s.png",
+        "32": "media/image.png"
+      }
+    },
+    "icons":{"16" : "media/s.png",
+      "32" : "media/image.png"
+            },
+    "permissions": [
+      "storage"
+    ],
+    "host_permissions": [
+      "https://api.github.com/*"
+    ]
+  }
